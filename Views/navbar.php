@@ -1,9 +1,9 @@
 
 <nav>
 
-<link rel="stylesheet" type="text/css" href="./Styles/navbar.css">
+<link rel="stylesheet" type="text/css" href="../Styles/navbar.css">
 
-    <img src="./images/metroside.jpg" alt="Logo" style="float: left;">
+    <img src="../images/metroside.jpg" alt="Logo" style="float: left;">
 
     <div class="buttons">
     

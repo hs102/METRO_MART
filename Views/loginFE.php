@@ -11,7 +11,7 @@
 
 <div class="container">
     <main>
-    <img src="./images/MetroWide.jpg" alt="Logo" style="float: left;">
+    <img src="../images/MetroWide.jpg" alt="Logo" style="float: left;">
         <h1>Login</h1>
         <form action="../Controllers/login.php" method="post">
 
