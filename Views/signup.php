@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Register</title>
     <link href = "../Styles/auth.css" rel = "stylesheet" type = "text/css">
-    <script src="/Scripts/validate.js"></script>
+    <script src="../validate.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../Images/MetroLogo.jpg" type="image/x-icon">
 </head>

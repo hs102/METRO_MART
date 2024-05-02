@@ -6,6 +6,8 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="../Styles/auth.css">
     <link rel="icon" href="../Images/MetroLogo.jpg" type="image/x-icon">
+    <script src="../validate.js"></script>
+
 </head>
 <body>
 
@@ -21,6 +23,7 @@
             <input type="password" name="password" id="password" required oninput="validateEmail()">
             <input id="submit" type="submit" value="Login" >
             <a href="signup.php">Create account</a>
+
         </form>
     </main>
 </div>

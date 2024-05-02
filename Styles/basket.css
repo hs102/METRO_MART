@@ -1,0 +1,53 @@
+/* This file contains the styles for the basket page */
+
+
+    
+        
+            
+        
+
+        .container {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+            display: flex;
+            height: calc(50vh - 81px); /* Subtract the height of the navbar */
+        }
+
+        h1 {
+            text-align: center;
+        }
+        .basket-item {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .basket-item div {
+            padding: 10px;
+        }
+        .total {
+            font-weight: bold;
+            margin-top: 20px;
+            text-align: left;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #56B280;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        button:hover {
+            background-color: #096b35;
+        }
+    
