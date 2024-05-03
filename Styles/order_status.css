@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-top: 0px; /* Space for fixed navbar */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px; /* Add top padding to move the content down */
+}
+
+
+h1 {
+    color: #268a1b;
+    font-size: 24px; /* Default font size for desktop */
+}
+
+.order-container {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.order-item:last-child {
+    border-bottom: none;
+}
+
+.order-item span {
+    margin-right: 20px;
+    font-size: 16px; /* Default font size for desktop */
+}
+
+.order-item span:last-child {
+    font-weight: bold;
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .order-item span {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%; /* Slightly more margin for smaller devices */
+    }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+    body {
+        padding-top: 60px; /* Less padding for mobile nav */
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .order-item span {
+        font-size: 12px;
+    }
+
+    .container {
+        width: 95%; /* Use more of the screen on small devices */
+    }
+}
